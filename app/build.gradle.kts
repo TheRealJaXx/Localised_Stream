@@ -11,8 +11,8 @@ android {
         applicationId = "com.localised.stream"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "0.1"
+        versionCode = 2
+        versionName = "0.2"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -26,4 +26,5 @@ android {
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.github.jiangdongguo.AndroidUSBCamera:libausbc:3.3.3")
 }
